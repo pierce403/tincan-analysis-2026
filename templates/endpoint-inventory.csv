@@ -1,0 +1,1 @@
+candidate_id,recorded_at_utc,hostname_or_redacted_reference,method,path_pattern,operation,object_types,apparent_auth,artifact_id,source_locator,observed_or_embedded,environment,related_hypothesis,notes

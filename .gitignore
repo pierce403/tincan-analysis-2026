@@ -1,0 +1,26 @@
+# Sensitive or proprietary research inputs and outputs
+/evidence/raw/
+/evidence/work/
+/private/
+/captures/
+/downloads/
+*.apk
+*.apks
+*.aab
+*.xapk
+*.ipa
+*.bin
+*.elf
+*.pcap
+*.pcapng
+*.har
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+*.log
+__pycache__/
+.venv/
+.DS_Store
