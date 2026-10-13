@@ -1,13 +1,13 @@
 # Roadmap and work packages
 
-Baseline: **2026-10-12**. This is a planning backlog, not a queue for automatic execution. On 2026-10-13 the owner authorized P1 acquisition of an APKMirror research sample and publication of sanitized notes to `main`.
+Baseline: **2026-10-12**. This is a planning backlog, not a queue for automatic execution. On 2026-10-13 the owner authorized P1 acquisition and offline static review of an APKMirror research sample and publication of sanitized notes to `main`.
 
 ## Phases
 
 | Phase | State | Work package | Exit criteria / output |
 | --- | --- | --- | --- |
 | P0 | Complete in this snapshot | Public-source recon, objectives, methodology, plans | Source-linked baseline, hypotheses, templates, reviewed documentation for `main` |
-| P1 | In progress: third-party sample acquired; official baseline and teardown pending | Official APK acquisition + offline teardown | Complete official installed split set, hashes/signers, component/native inventory, auth/provisioning/request maps |
+| P1 | In progress: third-party sample acquired and reviewed offline; official baseline and fuller code-path maps pending | Official APK acquisition + offline teardown | Complete official installed split set, hashes/signers, component/native inventory, auth/provisioning/request maps |
 | P2 | Not started | Own-account/device baseline observation | Controlled normal flows, timestamped network/pairing metadata, observed endpoint/state maps |
 | P3 | Not started | Hardware identity + read-first acquisition | Board map, security-state evidence, reproducible dump or documented blocking state |
 | P4 | Not started | Controlled hypothesis validation | Minimal A/B-account/device tests with positive/negative controls, scoped impact and limitations |

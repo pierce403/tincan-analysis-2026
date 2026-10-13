@@ -1,6 +1,6 @@
 # P1 APKMirror research sample: Tin Can 3.1.2 (433)
 
-**Status:** acquisition and offline identity verification complete for this third-party sample on 2026-10-13. The owner authorized moving to P1 and downloading the APKMirror bundle as a research sample. No installation, account use, decompilation, endpoint request, or device interaction followed. This sample is not the official Google Play installation baseline planned in [Stage A](03-apk-teardown-plan.md#stage-a-acquisition-and-identity).
+**Status:** acquisition and offline identity verification complete for this third-party sample on 2026-10-13. The owner authorized moving to P1 and downloading the APKMirror bundle as a research sample. No installation, account use, decompilation, endpoint request, or device interaction occurred during acquisition. A subsequent separately authorized [offline static review](09-apk-static-analysis.md) is recorded separately. This sample is not the official Google Play installation baseline planned in [Stage A](03-apk-teardown-plan.md#stage-a-acquisition-and-identity).
 
 ## Source and preserved artifact
 

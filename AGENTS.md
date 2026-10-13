@@ -2,9 +2,9 @@
 
 ## Current scope
 
-P0 recon and planning is complete. On 2026-10-13 the owner moved the project to **P1 for acquisition of an APKMirror research sample**, with direct publishing of sanitized notes to `main`. The APKMirror bundle is a third-party sample, not an official Google Play installation baseline. Do not interpret command examples, unchecked roadmap items, or hypothetical tests as instructions to execute them.
+P0 recon and planning is complete. On 2026-10-13 the owner moved the project to **P1 for acquisition and offline static analysis of an APKMirror research sample**, with direct publishing of sanitized notes to `main`. The APKMirror bundle is a third-party sample, not an official Google Play installation baseline. Do not interpret command examples, unchecked roadmap items, or hypothetical tests as instructions to execute them.
 
-Current work is limited to preserving the downloaded sample outside Git; recording source, hashes, package/version/split identity and signatures; and updating the corresponding research notes. The later official Play installation and offline teardown remain separately tracked P1 work. No app/account use, traffic capture, API requests for testing, device pairing, disassembly, bootloader access, firmware extraction, instrumentation, or exploit development is authorized by this phase change. Do not create scheduled jobs or launch agents automatically.
+Current work includes preserving the downloaded sample outside Git; recording source, hashes, package/version/split identity and signatures; offline APK decoding/decompilation and native-library inspection; and updating sanitized research notes. The later official Play installation remains separately tracked P1 work. No app/account use, traffic capture, API requests for testing, device pairing, bootloader access, firmware extraction, dynamic instrumentation, or exploit development is authorized by this phase change. Do not create scheduled jobs or launch agents automatically.
 
 ## Evidence discipline
 

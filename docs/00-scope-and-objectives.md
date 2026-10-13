@@ -1,6 +1,6 @@
 # Scope and objectives
 
-Baseline date: **2026-10-12**. Current phase: **P1 — APK acquisition started 2026-10-13**. Owner: Dean Pierce. Target: Tin Can's commercial Wi-Fi phone and parental ecosystem. An APKMirror app sample is identified as 3.1.2 (433); official installed APK, firmware version, and physical unit remain unidentified.
+Baseline date: **2026-10-12**. Current phase: **P1 — mirror APK acquisition and offline review started 2026-10-13**. Owner: Dean Pierce. Target: Tin Can's commercial Wi-Fi phone and parental ecosystem. An APKMirror app sample is identified as 3.1.2 (433); official installed APK, firmware version, and physical unit remain unidentified.
 
 ## What we want to learn
 
@@ -18,7 +18,7 @@ An acceptable answer can be “unresolved” or “extraction blocked by observe
 
 ## P0 work and current P1 boundary
 
-P0 produced public documentation, app-store metadata, regulatory exhibits, prior-work discovery, plans, and templates. On 2026-10-13 the owner authorized acquisition of an APKMirror research sample for P1. The [sample record](08-apkmirror-sample.md) documents bundle and split identity. Official Play installation, offline teardown, accounts, endpoint tests, network/device scans, captures, disassembly, and flash operations have not occurred.
+P0 produced public documentation, app-store metadata, regulatory exhibits, prior-work discovery, plans, and templates. On 2026-10-13 the owner authorized acquisition and offline static review of an APKMirror research sample for P1. The [sample record](08-apkmirror-sample.md) documents bundle and split identity; the [static review](09-apk-static-analysis.md) documents observed code/assets and limits. Official Play installation, app/account use, endpoint tests, network/device scans, captures, hardware disassembly, and flash operations have not occurred.
 
 ## Planned future lab scope
 

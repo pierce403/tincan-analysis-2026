@@ -1,6 +1,6 @@
 # Android APK teardown plan
 
-**P1 acquisition started.** A third-party [APKMirror 3.1.2 (433) bundle](08-apkmirror-sample.md) has been preserved and its base plus 34 splits verified. The official installed Play split set and its provenance remain unknown. The offline teardown stages below have not been executed.
+**P1 mirror-sample acquisition and offline static review complete.** A third-party [APKMirror 3.1.2 (433) bundle](08-apkmirror-sample.md) has been preserved and its base plus 34 splits verified. Its base and ABI libraries were [reviewed offline](09-apk-static-analysis.md). The official installed Play split set, any applied code patch, and their provenance remain unknown. The stages below describe the fuller future baseline and controlled work; the mirror review is a partial Stage B/C result.
 
 ## Outputs
 
@@ -77,7 +77,7 @@ Android Network Security Configuration is one input ([S021](../sources/README.md
 
 Vendor hiring material describes Flutter ([S010](../sources/README.md#s010)). Verify the sample before selecting a Flutter-specific approach. Inventory **all ABIs/splits**, looking for engine/application native libraries and Flutter assets; record ELF headers, build IDs, symbols, strings, and version clues where available.
 
-JADX can help with the Android wrapper/plugins but should not be expected to recover Dart business logic compiled to native AOT code. Flutter documentation describes compiled Dart native libraries and AOT artifacts ([S024](../sources/README.md#s024)). Check native code and assets for the pieces absent from the DEX view. Do not assume compiler/engine compatibility for a third-party recovery tool; choose and pin tooling after identifying the sample. No such tool is selected or run now.
+JADX can help with the Android wrapper/plugins but should not be expected to recover Dart business logic compiled to native AOT code. Flutter documentation describes compiled Dart native libraries and AOT artifacts ([S024](../sources/README.md#s024)). Check native code and assets for the pieces absent from the DEX view. Do not assume compiler/engine compatibility for a third-party recovery tool; the [mirror review](09-apk-static-analysis.md) records a pinned AOT analyzer that recognized the snapshot but failed full parsing. A future analyzer result needs its own validation.
 
 Priorities: Bluetooth plugin interfaces; secure-storage implementations; platform channels; auth redirects and token handling; networking/TLS call sites; device registration; contacts and quiet-time operations; update metadata; voicemail references.
 

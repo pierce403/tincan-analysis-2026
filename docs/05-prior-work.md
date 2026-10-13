@@ -27,7 +27,7 @@ The Flashback author describes configuration/auto-provisioning behavior, but thi
 - A detailed current-product APK/ESP32 reverse-engineering report.
 - A verified current-product vulnerability report supported by a reproducible artifact.
 
-These are search outcomes, not statements that such material cannot exist. No exhaustive GitHub code crawl, vulnerability-database coverage audit, APK inspection, or vendor inquiry was performed. Re-run the dated queries before future analysis and archive only concise bibliographic metadata/sanitized notes.
+These are P0 search outcomes, not statements that such material cannot exist. At the time of that search, no exhaustive GitHub code crawl, vulnerability-database coverage audit, APK inspection, or vendor inquiry was performed. A later [offline APK review](09-apk-static-analysis.md) is recorded separately. Re-run the dated queries before future analysis and archive only concise bibliographic metadata/sanitized notes.
 
 ## Prior-work intake criteria
 

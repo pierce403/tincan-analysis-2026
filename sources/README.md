@@ -1,6 +1,6 @@
 # Source register
 
-Entries S001–S038 were checked **2026-10-12**; S039 was checked **2026-10-13**. Source IDs are stable. Notes paraphrase only the relevant material; no full documents, APKs, or firmware are redistributed here. Vendor claims remain unverified implementation statements. Mutable `latest`/`stable` documentation must be rechecked and paired with pinned tools before future execution.
+Entries S001–S038 were checked **2026-10-12**; S039–S045 were checked **2026-10-13**. Source IDs are stable. Notes paraphrase only the relevant material; no full documents, APKs, or firmware are redistributed here. Vendor claims remain unverified implementation statements. Mutable `latest`/`stable` documentation must be rechecked and paired with pinned tools before future execution.
 
 ## Product and vendor sources
 
@@ -167,3 +167,27 @@ Inspected through [the mirrored text conversion](https://manuals.plus/m/50f78d8d
 ### S039
 
 [APKMirror Tin Can 3.1.2 (433) bundle listing](https://www.apkmirror.com/apk/tincan/tin-can/tin-can-3-1-2-release/tin-can-3-1-2-android-apk-download/) — checked 2026-10-13. Third-party distribution page for package `app.tincan`; lists a base APK and 34 splits, bundle size 75,295,463 bytes, SHA-256 `55d70b144d4745b365a37f6884ae86de62c879e50f22a4100a71185206233cb3`, and signer certificate SHA-256 `05f2274d345cd61b1dddc489371d3584ee073b1f2b7fb7def647d4a162ff0be8`. The locally downloaded bundle matched the listed size/hash. This is not an official Google Play extraction or independent publisher-identity baseline; see [the acquisition record](../docs/08-apkmirror-sample.md).
+
+### S040
+
+[JADX v1.5.6 release](https://github.com/skylot/jadx/releases/tag/v1.5.6) — checked 2026-10-13. Upstream APK/DEX decompiler release; the downloaded ZIP was SHA-256 checked and used for the offline base-APK review. Decompiled Java is partial and does not reconstruct Flutter AOT Dart code.
+
+### S041
+
+[Apktool v3.0.3 release](https://github.com/iBotPeaches/Apktool/releases/tag/v3.0.3) — checked 2026-10-13. Upstream decoder release; the downloaded JAR was SHA-256 checked and used for assets/resources. Split resources can leave unresolved references in base-only decoding.
+
+### S042
+
+[AOTopsy source at `01011df`](https://github.com/BroNils/aotopsy/tree/01011df108eaf5a0c1757cf5842115f9fb8b6303) — checked 2026-10-13. Third-party Dart AOT analyzer, cloned at exact commit and built locally; its diagnostic recognized this sample, but its full parser failed. No decompiled Dart conclusions rely on it.
+
+### S043
+
+[Firebase API-key guidance](https://firebase.google.com/docs/projects/api-keys) — checked 2026-10-13. Firebase says its client API keys identify projects rather than authorize data access; appropriate API/app restrictions, Security Rules, and App Check still need review. This does not establish restrictions for the keys in this sample.
+
+### S044
+
+[Shorebird Code Push overview](https://docs.shorebird.dev/code-push/) — checked 2026-10-13. Vendor documentation describes an app's Dart patch update mechanism. A bundled `shorebird.yaml` does not prove that a patch was published, downloaded, or applied.
+
+### S045
+
+[Android App Links intent-filter guidance](https://developer.android.com/training/app-links/add-applinks) — checked 2026-10-13. Android documentation for HTTPS link filters and `autoVerify`; the manifest's filter is only a declaration until domain verification and link handling are observed.
