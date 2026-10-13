@@ -1,6 +1,6 @@
 # Source register
 
-Entries S001–S038 were checked **2026-10-12**; S039–S045 were checked **2026-10-13**. Source IDs are stable. Notes paraphrase only the relevant material; no full documents, APKs, or firmware are redistributed here. Vendor claims remain unverified implementation statements. Mutable `latest`/`stable` documentation must be rechecked and paired with pinned tools before future execution.
+Entries S001–S038 were checked **2026-10-12** (S003 rechecked **2026-10-13**); S039–S049 were checked **2026-10-13**. Source IDs are stable. Notes paraphrase only the relevant material; no full documents, APKs, or firmware are redistributed here. Vendor claims remain unverified implementation statements. Mutable `latest`/`stable` documentation must be rechecked and paired with pinned tools before future execution.
 
 ## Product and vendor sources
 
@@ -14,7 +14,7 @@ Entries S001–S038 were checked **2026-10-12**; S039–S045 were checked **2026
 
 ### S003
 
-[Privacy policy](https://tincan.kids/policies/privacy-policy) — vendor primary source, last updated 2026-05-21. Read sections on contacts/configuration, automatic phone information, call logs, voicemail, and children's data. Policy language, not an audio/storage audit.
+[Privacy policy](https://tincan.kids/policies/privacy-policy) — vendor primary source, last updated 2026-05-21, rechecked 2026-10-13. Describes approved-contact names/numbers, phone configuration, phone identifiers/status, call logs, and voicemail data. Policy language, not a versioned app request trace or audio/storage audit.
 
 ### S004
 
@@ -191,3 +191,19 @@ Inspected through [the mirrored text conversion](https://manuals.plus/m/50f78d8d
 ### S045
 
 [Android App Links intent-filter guidance](https://developer.android.com/training/app-links/add-applinks) — checked 2026-10-13. Android documentation for HTTPS link filters and `autoVerify`; the manifest's filter is only a declaration until domain verification and link handling are observed.
+
+### S046
+
+[How do I add contacts to the approved list?](https://tin-can.zendesk.com/hc/en-us/articles/48032169515540-How-do-I-add-contacts-to-the-approved-list) — Tin Can support, checked 2026-10-13. Describes the Contacts-screen add flow and the phone OS Contacts permission needed for importing contacts. User instructions, not a backend protocol trace.
+
+### S047
+
+[Managing your Tin Can notifications](https://tin-can.zendesk.com/hc/en-us/articles/54380310104596-Managing-your-Tin-Can-notifications) — Tin Can support, checked 2026-10-13. Describes selecting a line, reviewing contact requests, and accepting or declining each; notification settings alone do not approve a contact. User instructions, not an implementation test.
+
+### S048
+
+[What is Quiet Time?](https://tin-can.zendesk.com/hc/en-us/articles/48031884392340-What-is-Quiet-Time) — Tin Can support, checked 2026-10-13. Says Quiet Time can be toggled from the app home screen and scheduled. Does not describe rule propagation or enforcement.
+
+### S049
+
+[How can I change my Time Zone?](https://tin-can.zendesk.com/hc/en-us/articles/54029121331476-How-can-I-change-my-Time-Zone) — Tin Can support, checked 2026-10-13. Says the account timezone affects availability and Quiet Time schedules. It is a vendor statement; no specific APK request/response was observed.

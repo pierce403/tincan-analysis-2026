@@ -18,6 +18,7 @@ Independent research on the commercial [Tin Can](https://tincan.kids/) children'
 | [Evidence method](docs/07-evidence-method.md) | Artifact identity, reproducibility, reporting |
 | [APKMirror sample](docs/08-apkmirror-sample.md) | Acquisition result, split verification, provenance limits |
 | [APK static analysis](docs/09-apk-static-analysis.md) | Manifest, Flutter/native, configuration, and candidate endpoint observations |
+| [Endpoint and parental-control map](docs/10-endpoints-and-parental-controls.md) | Configured hosts, candidate request families, and limits on update-flow evidence |
 | [Source register](sources/README.md) | Dated primary references and discovery leads |
 | [Search log](sources/search-log.md) | Reproducible public-recon queries |
 
