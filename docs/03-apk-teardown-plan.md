@@ -1,6 +1,6 @@
 # Android APK teardown plan
 
-**Future work only. Nothing in this plan has been executed.** Current locator: Play package `app.tincan` ([S002](../sources/README.md#s002)). Actual version, signer, distribution splits, and contents remain unknown.
+**P1 acquisition started.** A third-party [APKMirror 3.1.2 (433) bundle](08-apkmirror-sample.md) has been preserved and its base plus 34 splits verified. The official installed Play split set and its provenance remain unknown. The offline teardown stages below have not been executed.
 
 ## Outputs
 
@@ -14,7 +14,7 @@ A verified artifact inventory; Android component/permission map; native/Flutter 
 4. Hash each artifact. Verify each APK's signature; record signer certificate fingerprint, signature schemes, and available signing-lineage information. Verification alone establishes an internally valid signature, not publisher identity without a trusted provenance baseline.
 5. Compare split identity/version/signing metadata. Record any discrepancy and stop treating the set as a coherent installed release until resolved.
 
-Future acquisition examples, using [ADB](../sources/README.md#s018): replace `SESSION_ID`, device/profile values, and returned paths before use. No commands are being run now.
+Future official-installation acquisition examples, using [ADB](../sources/README.md#s018): replace `SESSION_ID`, device/profile values, and returned paths before use. These commands have not been run against a device.
 
 ```bash
 TC_ANDROID_SERIAL='REPLACE_DEVICE_SERIAL'

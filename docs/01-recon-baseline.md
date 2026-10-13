@@ -1,6 +1,6 @@
 # Recon baseline
 
-Checked **2026-10-12**. These are statements found in public sources, not results from examining a device or app binary.
+Checked **2026-10-12**. This is the historical P0 baseline: statements found in public sources, not results from examining a device or app binary. A later [P1 APKMirror sample](08-apkmirror-sample.md) has separate artifact identity observations.
 
 ## Documented statements
 

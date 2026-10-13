@@ -5,6 +5,7 @@
 /captures/
 /downloads/
 *.apk
+*.apkm
 *.apks
 *.aab
 *.xapk

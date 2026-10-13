@@ -1,13 +1,13 @@
 # Roadmap and work packages
 
-Baseline: **2026-10-12**. This is a planning backlog, not a queue for automatic execution. Current authorization covers P0 documentation/public recon and GitHub publishing only.
+Baseline: **2026-10-12**. This is a planning backlog, not a queue for automatic execution. On 2026-10-13 the owner authorized P1 acquisition of an APKMirror research sample and publication of sanitized notes to `main`.
 
 ## Phases
 
 | Phase | State | Work package | Exit criteria / output |
 | --- | --- | --- | --- |
 | P0 | Complete in this snapshot | Public-source recon, objectives, methodology, plans | Source-linked baseline, hypotheses, templates, reviewed documentation for `main` |
-| P1 | Not started | Official APK acquisition + offline teardown | Complete split set, hashes/signers, component/native inventory, auth/provisioning/request maps |
+| P1 | In progress: third-party sample acquired; official baseline and teardown pending | Official APK acquisition + offline teardown | Complete official installed split set, hashes/signers, component/native inventory, auth/provisioning/request maps |
 | P2 | Not started | Own-account/device baseline observation | Controlled normal flows, timestamped network/pairing metadata, observed endpoint/state maps |
 | P3 | Not started | Hardware identity + read-first acquisition | Board map, security-state evidence, reproducible dump or documented blocking state |
 | P4 | Not started | Controlled hypothesis validation | Minimal A/B-account/device tests with positive/negative controls, scoped impact and limitations |
@@ -20,7 +20,7 @@ P1 can begin without a handset if an official installed app is available. P2 nee
 | ID | Task | Depends on | Completion artifact |
 | --- | --- | --- | --- |
 | R01 | Identify available Android device/profile and intended handset model | Future phase selection | Filled inventory, sanitized scope/session record |
-| R02 | Acquire official package and all installed splits | R01 | Hash/signer/version manifest, source provenance |
+| R02 | Acquire official package and all installed splits; keep the APKMirror sample separate | R01 | Hash/signer/version manifest, source provenance |
 | R03 | Decode manifest/resources and inventory wrapper/plugins/native assets | R02 | Component and library tables, tool versions |
 | R04 | Reconstruct parent-auth, ownership, and activation flows | R03 | State diagrams with code/evidence locators |
 | R05 | Map contact, schedule, history, and voicemail operations | R03, R04 | Candidate request inventory, unresolved enforcement questions |

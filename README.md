@@ -1,8 +1,8 @@
 # Tin Can analysis · 2026
 
-Recon and research planning for the commercial [Tin Can](https://tincan.kids/) children's Wi-Fi phone, its parental app, and associated services.
+Independent research on the commercial [Tin Can](https://tincan.kids/) children's Wi-Fi phone, its parental app, and associated services.
 
-**Status: public-source recon and planning only.** Started 2026-10-12. No APK has been acquired or decompiled, no handset has been opened or dumped, and no service has been tested. There are **zero verified vulnerabilities**. This is independent research, with no claimed affiliation with Tin Can.
+**Status: P1 acquisition in progress.** Started 2026-10-12. An APKMirror 3.1.2 (433) bundle was acquired on 2026-10-13 as a third-party research sample; its base APK and 34 splits passed offline identity and signature checks. It is not a controlled Google Play extraction. No APK has been decompiled, no handset has been opened or dumped, and no service has been tested. There are **zero verified vulnerabilities** and no claimed affiliation with Tin Can.
 
 ## Read first
 
@@ -16,12 +16,13 @@ Recon and research planning for the commercial [Tin Can](https://tincan.kids/) c
 | [Prior work](docs/05-prior-work.md) | Relevant leads, exclusions, search limitations |
 | [Roadmap](docs/06-roadmap.md) | Work packages and explicit exit criteria |
 | [Evidence method](docs/07-evidence-method.md) | Artifact identity, reproducibility, reporting |
+| [APKMirror sample](docs/08-apkmirror-sample.md) | Acquisition result, split verification, provenance limits |
 | [Source register](sources/README.md) | Dated primary references and discovery leads |
 | [Search log](sources/search-log.md) | Reproducible public-recon queries |
 
-## First future work package
+## P1 next work package
 
-Acquire the official Android application from a controlled Android installation, preserve **every installed APK split**, establish package/version/signer/hash identity, then produce an offline component inventory. See [APK stage A](docs/03-apk-teardown-plan.md#stage-a-acquisition-and-identity). This work is planned, not started.
+Acquire the official Android application from a controlled Android installation, preserve **every installed APK split**, establish package/version/signer/hash identity, then produce an offline component inventory. The [APKMirror sample](docs/08-apkmirror-sample.md) provides a preliminary artifact but does not satisfy the official acquisition gate. See [APK stage A](docs/03-apk-teardown-plan.md#stage-a-acquisition-and-identity).
 
 Hardware work begins with the actual unit's model/FCC label and board revision. The ESP32-S3 module evidence is a lead; it does not establish the configuration of every Tin Can sold.
 

@@ -1,6 +1,6 @@
 # Source register
 
-All entries checked **2026-10-12**. Source IDs are stable. Notes paraphrase only the relevant material; no full documents, APKs, or firmware are redistributed here. Vendor claims remain unverified implementation statements. Mutable `latest`/`stable` documentation must be rechecked and paired with pinned tools before future execution.
+Entries S001–S038 were checked **2026-10-12**; S039 was checked **2026-10-13**. Source IDs are stable. Notes paraphrase only the relevant material; no full documents, APKs, or firmware are redistributed here. Vendor claims remain unverified implementation statements. Mutable `latest`/`stable` documentation must be rechecked and paired with pinned tools before future execution.
 
 ## Product and vendor sources
 
@@ -163,3 +163,7 @@ Inspected through [the mirrored text conversion](https://manuals.plus/m/50f78d8d
 ### S038
 
 [FCC filing index: 2BR2I-TCM1](https://fccid.io/2BR2I-TCM1) — third-party regulatory index linking primary exhibits. Filing links original Espressif certification. Index/provenance aid, not evidence of installed security settings or a complete handset board.
+
+### S039
+
+[APKMirror Tin Can 3.1.2 (433) bundle listing](https://www.apkmirror.com/apk/tincan/tin-can/tin-can-3-1-2-release/tin-can-3-1-2-android-apk-download/) — checked 2026-10-13. Third-party distribution page for package `app.tincan`; lists a base APK and 34 splits, bundle size 75,295,463 bytes, SHA-256 `55d70b144d4745b365a37f6884ae86de62c879e50f22a4100a71185206233cb3`, and signer certificate SHA-256 `05f2274d345cd61b1dddc489371d3584ee073b1f2b7fb7def647d4a162ff0be8`. The locally downloaded bundle matched the listed size/hash. This is not an official Google Play extraction or independent publisher-identity baseline; see [the acquisition record](../docs/08-apkmirror-sample.md).

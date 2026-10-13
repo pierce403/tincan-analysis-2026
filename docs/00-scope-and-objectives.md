@@ -1,6 +1,6 @@
 # Scope and objectives
 
-Baseline date: **2026-10-12**. Phase: **P0 — recon and planning**. Owner: Dean Pierce. Target: Tin Can's commercial Wi-Fi phone and parental ecosystem. Specific APK version, firmware version, and physical unit: **not yet identified**.
+Baseline date: **2026-10-12**. Current phase: **P1 — APK acquisition started 2026-10-13**. Owner: Dean Pierce. Target: Tin Can's commercial Wi-Fi phone and parental ecosystem. An APKMirror app sample is identified as 3.1.2 (433); official installed APK, firmware version, and physical unit remain unidentified.
 
 ## What we want to learn
 
@@ -16,9 +16,9 @@ Baseline date: **2026-10-12**. Phase: **P0 — recon and planning**. Owner: Dean
 
 An acceptable answer can be “unresolved” or “extraction blocked by observed controls.” A successful project does not require finding a vulnerability.
 
-## Current work
+## P0 work and current P1 boundary
 
-Public documentation, app-store metadata, regulatory exhibits, prior-work discovery, research plans, templates, and GitHub publishing. No APK download or analysis, accounts, endpoint tests, network/device scans, captures, disassembly, or flash operations are included now.
+P0 produced public documentation, app-store metadata, regulatory exhibits, prior-work discovery, plans, and templates. On 2026-10-13 the owner authorized acquisition of an APKMirror research sample for P1. The [sample record](08-apkmirror-sample.md) documents bundle and split identity. Official Play installation, offline teardown, accounts, endpoint tests, network/device scans, captures, disassembly, and flash operations have not occurred.
 
 ## Planned future lab scope
 

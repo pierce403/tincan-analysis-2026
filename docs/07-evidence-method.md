@@ -11,7 +11,7 @@
 | Verified finding | Reproduced security consequence with controls and scope | A lab account can access another controlled account's object |
 | Not located | A bounded search did not find the item | No public dump found in logged queries |
 
-No observations of app/device internals or verified findings exist at initialization. Baseline F IDs identify facts/statements; H IDs identify hypotheses; reserve `FIND-` IDs for actual findings.
+The initial P0 baseline contained no app/device observations. The P1 [APKMirror sample](08-apkmirror-sample.md) adds offline artifact identity observations, not implementation security findings. Baseline F IDs identify facts/statements; H IDs identify hypotheses; reserve `FIND-` IDs for actual findings.
 
 ## Artifact identity
 
